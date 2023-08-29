@@ -1,0 +1,30 @@
+@import "variables";
+
+.header {
+  width: 100%;
+  min-height: 60px;
+  padding: 0.2rem 2.5rem;
+  background: forestgreen;
+  display: flex;
+  justify-content: flex-end;
+
+  .active_menu {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: $light;
+    cursor: pointer;
+    transform: scale(1);
+    animation: scale-menu-button ease-in-out 1.5s infinite;
+  }
+
+}
+
+@keyframes scale-menu-button {
+  0%,100%{
+    transform: scale(0.8);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+}

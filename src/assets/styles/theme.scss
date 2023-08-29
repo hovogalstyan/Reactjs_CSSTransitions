@@ -1,0 +1,49 @@
+@import "variables";
+
+.wrapper.theme {
+  background: $dark;
+  .navbar {
+    box-shadow: $darkShadow;
+    background: $dark;
+    .navbar_container {
+
+      .nav_block {
+        ul {
+          li {
+            a {
+              color: $light;
+
+              span {
+                color: $light;
+              }
+            }
+          }
+        }
+
+        .theme_container {
+          .theme_button {
+            background: $light;
+
+            span {
+              left: 27px;
+              background: $dark;
+            }
+          }
+
+        }
+      }
+      .logo_navbar_block .logos{
+        background: white;
+        h1{
+          color: $dark;
+        }
+        h2{
+           color: $dark;
+          span{
+            color: rebeccapurple;
+          }
+        }
+      }
+    }
+  }
+}
